@@ -1,0 +1,1 @@
+export const exchange = c=>{if(!c){c=1};const f = (c*(9/5))+32; console.log(f); return f}
