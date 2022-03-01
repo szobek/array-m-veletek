@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
       )
       deleteFn([2,8,9,3,63,7,22,36],3)
-      everythingFn([2,8,9,3,63,7,22,36,35,65,1,8])
+      everythingFn()
 })

@@ -6,4 +6,5 @@ if(a.length<b.length){return 1}
 if(a.length===b.length){return 0}
 }))
 console.log(end);
+return arr.map(element => element.length)
 }

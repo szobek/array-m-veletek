@@ -1,7 +1,10 @@
-export const everythingFn = arr =>{
+import { sorting } from "./sort.js";
+
+export const everythingFn = () =>{
+    const arr = sorting()
     arr.forEach(element => {
-       console.log(element*2); 
+       console.log(`szorozva 2-vel: ${element*2}`); 
     });
-    console.log(Math.min(...arr));
-    console.log(arr.reduce((item, acc)=>item + acc,0));
+    console.log(`A legkisebb: ${Math.min(...arr)}`);
+    console.log( `Az összeg: ${arr.reduce((item, acc)=>item + acc,0)}`);
 }
